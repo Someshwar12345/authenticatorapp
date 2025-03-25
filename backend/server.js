@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://auth-red-three.vercel.app', // Allow requests from your frontend
+  origin: 'https://authenticatorapp-tau.vercel.app/', // Allow requests from your frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
